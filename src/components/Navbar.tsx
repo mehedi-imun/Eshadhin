@@ -47,7 +47,7 @@ const Header = () => {
                 <ShoppingCart size={24} />
               </Link>
               <span className="rounded-full absolute top-[-10px] left-[20px] bg-primary text-white text-center size-[25px]">
-               {products.length}
+                {products.length}
               </span>
             </li>
 
@@ -58,6 +58,14 @@ const Header = () => {
               >
                 <Moon size={24} />
               </button>
+            </li>
+            <li>
+              <Link
+                className="rounded-lg backdrop-blur-[2px] p-1 inline-block"
+                to={"/login"}
+              >
+                login
+              </Link>
             </li>
           </ul>
         </div>
